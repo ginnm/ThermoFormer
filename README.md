@@ -52,6 +52,13 @@ Once you have the annotated dataset, you can run inference:
 python inference.py --file ogt_data/annotated.csv --output ogt_data/infer.csv
 ```
 
+## 🚀 Running Tm Prediction
+Once you have the annotated dataset, you can run inference:
+
+```bash
+python inference.py --model_name GinnM/ThermoFormer-TM --file ogt_data/annotated.csv --output ogt_data/infer.csv
+```
+
 ---
 
 ## 🧪 Using ThermoFormer in Python
